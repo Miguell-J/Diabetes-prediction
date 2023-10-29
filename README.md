@@ -29,6 +29,8 @@ The code performs the following steps:
 9. Uses a KNN model to predict diabetes occurrence and evaluates its accuracy.
 10. Plots the loss history of the neural network.
 
+<img src="diabetes_loss.png"/>
+
 ## Results
 
 The code provides the following outputs:
