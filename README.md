@@ -1,5 +1,7 @@
 # Diabetes Prediction
 
+<img src="https://www.endocrinologyadvisor.com/wp-content/uploads/sites/9/2019/06/diabetes_G_1047558940.jpg"/>
+
 This is a machine learning project aimed at predicting the occurrence of diabetes based on patient data. The project employs various machine learning modeling techniques, including Random Forest, Support Vector Machine (SVM), Neural Network, and K-Nearest Neighbors (KNN).
 
 ## Prerequisites
