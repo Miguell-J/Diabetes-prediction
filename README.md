@@ -42,7 +42,7 @@ The code provides the following outputs:
 - Accuracy of the neural network.
 - Accuracy of the KNN model.
 
-```python
+```bash
 print("Accuracy with RandomForest: {:.2%}".format(accuracy_rf))
 print("Accuracy with SVM: {:.2%}".format(cv_result.mean()))
 print("Accuracy with neural network: {:.2%}".format(accuracy))
