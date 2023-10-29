@@ -42,6 +42,18 @@ The code provides the following outputs:
 - Accuracy of the neural network.
 - Accuracy of the KNN model.
 
+```python
+print("Accuracy with RandomForest: {:.2%}".format(accuracy_rf))
+print("Accuracy with SVM: {:.2%}".format(cv_result.mean()))
+print("Accuracy with neural network: {:.2%}".format(accuracy))
+print("Accuracy with KNN: {:.2%}".format(accuracy_score(y_test, y_knn)))
+     
+Accuracy with RandomForest 76.62%
+Accuracy with SVM: 76.69%
+Accuracy with neural network: 77.27%
+Accuracy with KNN foi : 69.48%
+```
+
 ## How to Run
 
 You can run the provided Python code in your preferred development environment. Ensure you have the aforementioned libraries installed and that the "diabetes.csv" file is in the working directory.
